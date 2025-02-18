@@ -1,2 +1,4 @@
-# UTAustin-CSMS-ML-312
-Final Paper Code
+# Detect LLMs Generated Text
+The fast progress of large language models (LLM) has brought attention and scrutiny from various parts of the society. As with any powerful technology, it can be used for good and malicious intents. As the danger of such malicious use of LLM become more concerning, the effective way of detecting if a given excerpt of text is written by human or LLM becomes a necessary and important task. We formalized this problem as a binary classification problem and used area under the receiver operating characteristic curve (AUC-ROC) to measure our models' performance. We explored a wide range of models, including Logistic Regression, Stochastic Gradient Decent Training on Linear Models, Multinomial Naive Bayes, Gradient Boosting, and Transformer models. We also searched hyperparameter space to tune each model and combined individual models with an Ensemble model. To overcome the large vocabulary size issue introduced by typos, we built a custom tokenizer which turned out to be very effective and improved the performance of many models. 
+
+[Full paper](paper.pdf)
